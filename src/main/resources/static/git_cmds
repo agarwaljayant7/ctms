@@ -1,0 +1,63 @@
+by default 'master' branch was available as:
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git status
+On branch master
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git checkout -b develop
+Switched to a new branch 'develop'
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git checkout -b feature/adding-study
+Switched to a new branch 'feature/adding-study'
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git remote add origin https://github.com/agarwaljayant7/ctms.git
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git remote -v
+origin  https://github.com/agarwaljayant7/ctms.git (fetch)
+origin  https://github.com/agarwaljayant7/ctms.git (push)
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git add *
+The following paths are ignored by one of your .gitignore files:
+HELP.md
+target
+Use -f if you really want to add them.
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git checkout -b master
+Switched to a new branch 'master'
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git status
+On branch master
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git commit -m "first commit"
+[master (root-commit) 7f00d60] first commit
+ 9 files changed, 688 insertions(+)
+ create mode 100755 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/medidata/ctms/CtmsApplication.java
+ create mode 100644 src/main/java/com/medidata/ctms/model/Study.java
+ create mode 100644 src/main/java/com/medidata/ctms/repository/StudyRepository.java
+ create mode 100644 src/main/java/com/medidata/ctms/rest/StudyController.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/com/medidata/ctms/CtmsApplicationTests.java
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git push origin master
+Username for 'https://github.com': agarwaljayant7
+Password for 'https://agarwaljayant7@github.com': Personal access token
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (26/26), 8.88 KiB | 1010.00 KiB/s, done.
+Total 26 (delta 0), reused 0 (delta 0)
+To https://github.com/agarwaljayant7/ctms.git
+ * [new branch]      master -> master
+(base) FVFTK95KH3QD:ctms jayantagarwal$
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git branch develop
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git checkout develop
+A       src/main/resources/static/git cmds
+Switched to branch 'develop'
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git status
+On branch develop
+
+
