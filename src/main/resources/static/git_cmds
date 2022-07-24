@@ -60,4 +60,11 @@ Switched to branch 'develop'
 (base) FVFTK95KH3QD:ctms jayantagarwal$ git status
 On branch develop
 
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git add src/main/resources/static/git_cmds
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git commit -m "update git_cmds"
+[develop 7ee2bfe] update git_cmds
+ 1 file changed, 63 insertions(+)
+ create mode 100644 src/main/resources/static/git_cmds
+
 
