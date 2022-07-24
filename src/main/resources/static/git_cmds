@@ -89,3 +89,19 @@ On branch develop
 (base) FVFTK95KH3QD:ctms jayantagarwal$ git commit -m "further updating git_cmds second time"
 [develop 666ca0a] further updating git_cmds second time
  1 file changed, 15 insertions(+)
+
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git add src/main/resources/static/git_cmds
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git commit -m "further updating git_cmds third time"
+[develop 21b8bb8] further updating git_cmds third time
+ 1 file changed, 6 insertions(+)
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git push origin develop
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 1.42 KiB | 725.00 KiB/s, done.
+Total 14 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/agarwaljayant7/ctms.git
+   ff98cf9..21b8bb8  develop -> develop
+(base) FVFTK95KH3QD:ctms jayantagarwal$
