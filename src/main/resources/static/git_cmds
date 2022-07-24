@@ -67,6 +67,7 @@ On branch develop
  1 file changed, 63 insertions(+)
  create mode 100644 src/main/resources/static/git_cmds
 
+
 (base) FVFTK95KH3QD:ctms jayantagarwal$ git push origin develop
 Enumerating objects: 18, done.
 Counting objects: 100% (18/18), done.
