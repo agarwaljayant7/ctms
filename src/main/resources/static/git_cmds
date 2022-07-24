@@ -82,4 +82,10 @@ remote:
 To https://github.com/agarwaljayant7/ctms.git
  * [new branch]      develop -> develop
 
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git add src/main/resources/static/git_cmds
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git status
+On branch develop
 
+(base) FVFTK95KH3QD:ctms jayantagarwal$ git commit -m "further updating git_cmds second time"
+[develop 666ca0a] further updating git_cmds second time
+ 1 file changed, 15 insertions(+)
